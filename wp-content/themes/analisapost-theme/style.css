@@ -1,0 +1,37 @@
+/*
+Theme Name: AnalisaPost Theme
+Theme URI: https://analisapost.com
+Author: Redaksi AnalisaPost
+Author URI: https://analisapost.com
+Description: Tema Berita Modern AnalisaPost (Simple and Independent) dengan integrasi Google Ads (IAB Standard), MGID Native, dan Iklan Baris Interaktif WhatsApp.
+Version: 1.0.0
+License: GNU General Public License v2 or later
+Text Domain: analisapost
+*/
+
+/* Core Custom Overrides */
+body {
+  font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.news-title {
+  line-height: 1.35;
+}
+
+/* Ad Placeholders (when no script is inserted yet) */
+.ad-google {
+  background: #FAFAFA;
+  border: 1.5px dashed #4285F4;
+}
+
+.ad-mgid {
+  background: #FFFDF7;
+  border: 1.5px dashed #F59E0B;
+}
+
+.ad-baris {
+  background: #F0FDF4;
+  border: 1.5px solid #22C55E;
+}
